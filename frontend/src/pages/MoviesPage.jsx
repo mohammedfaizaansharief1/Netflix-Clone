@@ -16,7 +16,7 @@ const MoviesPage = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-black text-white pt-20">
+    <div className="min-h-screen bg-white text-black pt-20">
       <Navbar />
       <h1 className="text-3xl font-bold mb-4 px-4">Movies</h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 px-4">

@@ -2,6 +2,9 @@
 import express from "express";
 import axios from "axios";
 import dotenv from "dotenv";
+const { getSeries } = require('../controllers/movieController');
+
+router.get('/series', getSeries);
 
 dotenv.config();
 

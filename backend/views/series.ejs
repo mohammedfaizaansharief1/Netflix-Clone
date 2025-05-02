@@ -1,0 +1,9 @@
+<div class="series-container">
+    <% series.forEach(show => { %>
+      <div class="series-card">
+        <img src="<%= show.image %>" alt="<%= show.title %>">
+        <h3><%= show.title %></h3>
+      </div>
+    <% }) %>
+  </div>
+  

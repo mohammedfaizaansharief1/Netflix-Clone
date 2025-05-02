@@ -2,7 +2,11 @@
 import express from "express";
 import axios from "axios";
 
+import { getSeries } from "../controllers/movieController.js";
+
 const router = express.Router();
+
+router.get("/series", getSeries);
 
 // Get Trending Movies
 router.get("/trending", async (req, res) => {
